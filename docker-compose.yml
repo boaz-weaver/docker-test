@@ -1,0 +1,12 @@
+version: '3'
+
+
+services:
+  redis:
+    image: redis
+
+  db:
+    image: postgres:9.4
+
+  vote:
+    image: kodekloud/voting-app
